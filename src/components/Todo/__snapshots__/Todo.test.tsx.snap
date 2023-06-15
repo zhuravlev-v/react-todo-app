@@ -1,0 +1,152 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Todo test > Component snapshot 1`] = `
+<div>
+  <div
+    class="_todoWrapper_5c75ad"
+    data-testid="todoWrapper"
+  >
+    <h1
+      class="_title_5c75ad"
+    >
+      Todos
+    </h1>
+    <div
+      class="_todo_5c75ad"
+    >
+      <div
+        class="_header_5c75ad"
+      >
+        <button
+          class="_button_19efde _isOpen_19efde"
+        >
+          <img
+            alt="open todo list"
+            class="_arrow_19efde _arrowIsOpen_19efde"
+            src="/arrow-down.svg"
+          />
+        </button>
+        <input
+          class="_input_749b1f _todoInput_5c75ad"
+          id=""
+          name=""
+          placeholder="what needs to be done?"
+          type="text"
+        />
+      </div>
+      <div
+        class="_main_5c75ad _mainIsOpen_5c75ad"
+      >
+        <ul
+          class="_list_5aec6f"
+        >
+          <li
+            class="_listItem_5aec6f"
+          >
+            <label
+              class="_label_00e4ad"
+            >
+              <input
+                checked=""
+                class="_checkbox_00e4ad"
+                type="checkbox"
+              />
+              <p
+                class="_text_00e4ad _isDone_00e4ad"
+              >
+                mvp todo
+              </p>
+            </label>
+          </li>
+          <li
+            class="_listItem_5aec6f"
+          >
+            <label
+              class="_label_00e4ad"
+            >
+              <input
+                checked=""
+                class="_checkbox_00e4ad"
+                type="checkbox"
+              />
+              <p
+                class="_text_00e4ad _isDone_00e4ad"
+              >
+                add typescript
+              </p>
+            </label>
+          </li>
+          <li
+            class="_listItem_5aec6f"
+          >
+            <label
+              class="_label_00e4ad"
+            >
+              <input
+                checked=""
+                class="_checkbox_00e4ad"
+                type="checkbox"
+              />
+              <p
+                class="_text_00e4ad _isDone_00e4ad"
+              >
+                add tests
+              </p>
+            </label>
+          </li>
+          <li
+            class="_listItem_5aec6f"
+          >
+            <label
+              class="_label_00e4ad"
+            >
+              <input
+                class="_checkbox_00e4ad"
+                type="checkbox"
+              />
+              <p
+                class="_text_00e4ad "
+              >
+                get job
+              </p>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="_footer_5c75ad"
+      >
+        <p
+          class="_leftItems_5c75ad"
+        >
+          1 item left
+        </p>
+        <div
+          class="_tabs_5c75ad"
+        >
+          <button
+            class="_tab_5c75ad _tabActive_5c75ad"
+          >
+            all
+          </button>
+          <button
+            class="_tab_5c75ad "
+          >
+            active
+          </button>
+          <button
+            class="_tab_5c75ad "
+          >
+            completed
+          </button>
+        </div>
+        <button
+          class="_clearCompleted_5c75ad"
+        >
+          Clear completed
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

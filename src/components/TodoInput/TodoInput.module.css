@@ -1,0 +1,20 @@
+.input {
+  margin: 0;
+  padding: 8px 10px;
+  border: none;
+  font-size: 20px;
+  /* color: #5d5d5d; */
+  color: var(--grey-color);
+}
+
+.input::placeholder {
+  font-style: italic;
+  color: var(--grey-color);
+  opacity: 0.3;
+}
+
+.input:focus{
+  /* outline: 1px solid #d5d5d5; */
+  outline: 1px solid var(--grey-color);
+  border-radius: 3px;
+}

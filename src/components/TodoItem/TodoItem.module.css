@@ -1,0 +1,14 @@
+.label {}
+
+.checkbox {}
+
+.text {
+  color: var(--grey-color);
+  display: inline-block;
+  user-select: none;
+  margin: 0;
+}
+
+.isDone {
+  text-decoration: line-through;
+}
