@@ -13,6 +13,7 @@
 .arrow {
   width: 20px;
   transform: rotate(180deg);
+  transition: transform 0.2s ease;
 }
 
 .arrowIsOpen {

@@ -44,6 +44,7 @@
 }
 
 .main {
+  transition: all 0.2s ease;
   overflow: hidden;
   flex-grow: 0;
   height: 0;
