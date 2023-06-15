@@ -1,2 +1,2 @@
 # react-todo-app
-### [demo](https://react-todo-app-b672.netlify.app/)
+### tech stack: React + TS + Vitest [demo](https://react-todo-app-b672.netlify.app/)
