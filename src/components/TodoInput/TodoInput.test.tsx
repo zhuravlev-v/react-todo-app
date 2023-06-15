@@ -39,9 +39,9 @@ describe("TodoInput test", () => {
     expect(handleInputEnter).toHaveBeenCalled()
   })
 
-  test.todo("onInputEnter called with value adds new task", async () => {
-    const input  = screen.getByPlaceholderText(/what needs to be done?/i)
-    await user.type(input, 'Hello, World {enter}');
-    const newTask = await screen.findByText(/Hello, World/i)
-  })
+  // test.todo("onInputEnter called with value adds new task", async () => {
+  //   const input  = screen.getByPlaceholderText(/what needs to be done?/i)
+  //   await user.type(input, 'Hello, World {enter}');
+  //   const newTask = await screen.findByText(/Hello, World/i)
+  // })
 })
